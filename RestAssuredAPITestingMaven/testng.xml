@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RestAssuredAPIRTestingcmdexecution">
+  <test name="GetPostResquest">
+    <classes>
+      <class name="APILearning.TC001_Get_Request"/>
+      <class name="APILearning.TC003_Get_Request"/>
+    </classes>
+  </test> 
+</suite> <!-- RestAssuredAPIRTestingcmdexecution -->

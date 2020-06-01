@@ -1,4 +1,4 @@
-//Folowing code we are doing header validation using Get method
+//In below code we are doing header validation using Get method
 package APILearning;
 
 import org.testng.annotations.Test;
