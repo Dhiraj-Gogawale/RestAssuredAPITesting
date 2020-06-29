@@ -18,7 +18,7 @@ public class TC006_Get_Request {
 
 		RestAssured.baseURI="http://dummy.restapiexample.com/api/v1";
 		
-		//Now we need send above URL as a GET Request. So we will be sending Get type of request. So we need to create below RequestSpecification Object.
+		//Now we need to send above URL as a GET Request. So we will be sending Get type of request. So we need to create below RequestSpecification Object.
 	    //RequestSpecification is one of the predefine class in RestAssured.
 		//With the below httprequest object we will be sending request to the server. hence it is a Request Object.
 		RequestSpecification httpRequest=RestAssured.given();

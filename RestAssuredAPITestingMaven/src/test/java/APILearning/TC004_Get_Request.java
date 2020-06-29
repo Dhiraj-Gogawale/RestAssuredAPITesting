@@ -16,7 +16,7 @@ public class TC004_Get_Request {
 	
 	@Test
 	public void GetWeatherdetails() {
-		//Specify base URl
+		//Specify the base URl
 				RestAssured.baseURI="https://maps.googleapis.com";
 				
 				//Now we need send above URL as a GET Request. So we will be sending Get type of request. So we need to create below RequestSpecification Object.

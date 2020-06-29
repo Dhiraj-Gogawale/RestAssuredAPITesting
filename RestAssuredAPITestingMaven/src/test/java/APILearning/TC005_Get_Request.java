@@ -27,7 +27,7 @@ public class TC005_Get_Request {
 	//Below Method.GET is use because the request which we are sending is of GET type. Also we need to pass parameter as an input.
 	Response response=httpRequest.request(Method.GET,"/employees");
 	
-	//Print Responce in Console Window
+	//Print the Responce in Console Window
 	String responseBody=response.getBody().asString();
 	System.out.println("Response Body is :" +responseBody);
 	 
